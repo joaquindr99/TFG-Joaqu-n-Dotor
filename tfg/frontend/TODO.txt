@@ -1,0 +1,3 @@
+Dar estilos a MenuPrincipal (Añadir imágen de bienvenida?).
+
+Borrar estilos no utilizados
