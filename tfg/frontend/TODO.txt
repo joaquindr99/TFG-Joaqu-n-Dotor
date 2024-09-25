@@ -1,3 +1,5 @@
-Dar estilos a MenuPrincipal (Añadir imágen de bienvenida?).
+Arreglar cerrar sesión está muy a la derecha
 
-Borrar estilos no utilizados
+Poner bonito agregarHorarios y agregarAulas
+
+Estilos en general

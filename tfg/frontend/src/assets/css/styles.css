@@ -488,13 +488,19 @@ button {
     margin-bottom: 10px;
     border-radius: 5px;
     width: 300px;
-    min-height: 400px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: flex;
+    justify-content: space-between;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
 }
+
+.divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
 
 .aula-card h2 {
     background-color: #e2e2e2;
@@ -523,6 +529,7 @@ button {
 .aula-info {
     margin-bottom: 20px;
     text-align: left;
+    flex-grow: 1;
 }
 
 .aula-info p {
@@ -531,6 +538,7 @@ button {
 
 .horarios-container {
     margin-top: 15px;
+    flex-grow: 0;
 }
 
 .horario {
@@ -578,14 +586,58 @@ h3 {
 }
 
 .form-container {
-    display: flex;
     background-color: #f9f9f9;
     border-radius: 10px;
     padding: 20px;
-    max-width: 600px;
+    max-width: 390px;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que ocupe toda la pantalla en altura */
 }
+
+.form-login, .register-form {
+    background-color: #f9f9f9; /* Fondo para el formulario */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Añade un efecto de sombra */
+    width: 100%;
+    max-width: 400px; /* Limita el ancho del formulario */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #218838;
+  }
 
 .form-container h2 {
     text-align: center;

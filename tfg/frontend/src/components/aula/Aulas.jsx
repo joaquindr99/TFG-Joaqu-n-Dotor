@@ -88,6 +88,8 @@ export const Aulas = () => {
                   <p><strong>Planta:</strong> {aula.planta}</p>
                   <p><strong>Descripción:</strong> {aula.descripcion}</p>
                 </div>
+
+                <div className="divider"></div>
                 
                 <h3>Horarios Ofertados:</h3>
                 <div className="horarios-container">
